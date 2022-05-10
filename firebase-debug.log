@@ -1,0 +1,65 @@
+[debug] [2022-05-01T20:03:23.979Z] ----------------------------------------------------------------------
+[debug] [2022-05-01T20:03:23.980Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abdul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-01T20:03:23.981Z] CLI Version:   10.7.2
+[debug] [2022-05-01T20:03:23.981Z] Platform:      win32
+[debug] [2022-05-01T20:03:23.981Z] Node Version:  v16.14.2
+[debug] [2022-05-01T20:03:23.982Z] Time:          Sun May 01 2022 23:03:23 GMT+0300 (GMT+03:00)
+[debug] [2022-05-01T20:03:23.982Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-01T20:03:24.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-01T20:03:24.033Z] > authorizing via signed-in user (abdulkerimy94@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abdul\Masaüstü\react for gıthup\4-cart
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-01T20:03:34.354Z] Using project from CLI flag: sepetgetir
+[debug] [2022-05-01T20:03:34.357Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sepetgetir [none]
+[debug] [2022-05-01T20:03:34.720Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sepetgetir 200
+[debug] [2022-05-01T20:03:34.720Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sepetgetir {"projectId":"sepetgetir","projectNumber":"532317153752","displayName":"sepetgetir","name":"projects/sepetgetir","resources":{"hostingSite":"sepetgetir"},"state":"ACTIVE"}
+[info] i  Using project sepetgetir (sepetgetir) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Abdul\Masaüstü\react for gıthup\4-cart is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1072253706&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-05-01T20:03:35.284Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"57f1f7e02cf332448cbc","redirect_uri":"http://localhost:9005","state":"1072253706"}
+[debug] [2022-05-01T20:03:35.718Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sun, 01 May 2022 20:03:36 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"5c139fd29d66f2db2e6752fc1f8a11bb\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"36D4:09A7:DB4D31:10D307D:626EE798"}
+[debug] [2022-05-01T20:03:35.724Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-05-01T20:03:36.358Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-05-01T20:03:36.359Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"abdulkerimmm","id":64563946,"node_id":"MDQ6VXNlcjY0NTYzOTQ2","avatar_url":"https://avatars.githubusercontent.com/u/64563946?v=4","gravatar_id":"","url":"https://api.github.com/users/abdulkerimmm","html_url":"https://github.com/abdulkerimmm","followers_url":"https://api.github.com/users/abdulkerimmm/followers","following_url":"https://api.github.com/users/abdulkerimmm/following{/other_user}","gists_url":"https://api.github.com/users/abdulkerimmm/gists{/gist_id}","starred_url":"https://api.github.com/users/abdulkerimmm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/abdulkerimmm/subscriptions","organizations_url":"https://api.github.com/users/abdulkerimmm/orgs","repos_url":"https://api.github.com/users/abdulkerimmm/repos","events_url":"https://api.github.com/users/abdulkerimmm/events{/privacy}","received_events_url":"https://api.github.com/users/abdulkerimmm/received_events","type":"User","site_admin":false,"name":"abdulkerim yalçın","company":"microsoft","blog":"","location":null,"email":null,"hireable":null,"bio":"software engineer","twitter_username":null,"public_repos":3,"public_gists":0,"followers":1,"following":1,"created_at":"2020-04-29T23:42:04Z","updated_at":"2022-04-23T11:08:01Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":141362,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as abdulkerimmm 
+[info] 
+[debug] [2022-05-01T20:08:43.841Z] >>> [apiv2][query] GET https://api.github.com/repos/jkj/actions/secrets/public-key type=owner
+[debug] [2022-05-01T20:08:44.205Z] <<< [apiv2][status] GET https://api.github.com/repos/jkj/actions/secrets/public-key 404
+[debug] [2022-05-01T20:08:44.205Z] <<< [apiv2][body] GET https://api.github.com/repos/jkj/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-05-01T20:08:44.216Z] >>> [apiv2][query] GET https://api.github.com/repos/jkj/actions/secrets/public-key type=owner
+[debug] [2022-05-01T20:08:44.405Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-05-01T20:08:44.527Z] <<< [apiv2][status] GET https://api.github.com/repos/jkj/actions/secrets/public-key 404
+[debug] [2022-05-01T20:08:44.527Z] <<< [apiv2][body] GET https://api.github.com/repos/jkj/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-05-01T20:08:44.698Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-05-01T20:08:44.698Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}

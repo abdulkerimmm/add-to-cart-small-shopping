@@ -1,0 +1,11 @@
+.cart-image{
+    width: 100%;
+
+}
+
+/* when you want to set a your immage according to <div> <div/> you should use >img */
+.cart-image>img{
+    width: 100%;
+    height: 200px;
+    object-fit:contain;
+}
