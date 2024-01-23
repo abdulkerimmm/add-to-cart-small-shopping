@@ -1,0 +1,19 @@
+.cart{
+    background: #fff; 
+    color: #495057;
+    padding:  20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.cart:hover {
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.4);
+ }  
+
+ .cart-body {
+    background: #fff;
+    color: #495057;
+    border-radius: 4px;
+ }
